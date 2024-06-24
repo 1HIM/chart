@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    margin: 0 5px;
+}
+
+.item-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-actions button {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button.like {
+    color: grey;
+}
+
+button.like.liked {
+    color: red;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+}
